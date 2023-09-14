@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Khula&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0A0909;
+      margin: 0;
+      padding: 0;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+}
+.navbar-wrapper > div{
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+.menu{
+    flex-grow: 1;
+}
+.menu  a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu > ul {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Khula';
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0 20px;
+    font-weight: 400;
+    line-height: 77px;
+    text-transform: uppercase;
+}
+.navbar-wrapper  input{
+    border-radius: 30px;
+    border: 4px solid #B8B8B8;
+    background: #050505;
+    width: 326px;
+    height: 39px;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Khula';
+    text-indent: 10px;
+    outline: none;
+}
+.hero > img{
+    width: 100%;
+    height: 574px;
+}
+.hero-wrapper > .title > h1{
+    color: #FFF;
+    font-family: 'Inspiration';
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 77px;
+}
+.button-wrapper{
+    display: flex;
+    gap: 0 22px;
+    margin-top: 66px;
+}
+.play-btn {
+    border-radius: 5px;
+    border: 0px solid #000;
+    background: #FFF;
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+    justify-content: center;
+    width: 166px;
+    height: 45px;
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 77px;
+}
+.play-btn > img{
+    background-color: #fff;
+}
+.info-btn{
+    color: #F9F9F9;
+    font-size: 27px;
+    border-radius: 5px;
+    border: 0px solid #000;
+    background: #C5C5C5;
+    width: 166px;
+    height: 45px;
+}
+.movies-wrapper{
+    margin-top: 47px;
+}
+.hoolywood-movies{
+    display: flex;
+    gap: 0 50px;
+}
+h2{
+    color: #FFF;
+    font-family: 'Khula';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 77px;
+}
+    .hero {
+      position: relative;
+      height: 574px;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+        max-width: 1728px;
+        height: 574px;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+header{
+    position: relative;
+}
+header .hero-wrapper{
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+}
+.hollywood-movie{
+    max-width: 100%;
+    height: 220px;
+    display: flex;
+    gap: 0 50px;
+    overflow-x: auto;
+    padding-left: 100px;
+    margin: 0 auto;
+    margin-top: -120px;
+    position: absolute;
+    z-index: 1;
+}
+.divcha img{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+}
+.hollywood-movie::-webkit-scrollbar{
+    display: none;
+}
+main{
+    margin-top: 100px;
+}
+.ikkinchi-qator__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.ikkinchi-qator{
+    display: flex;
+    gap: 0 50px;
+    overflow-x: auto;
+    padding-left: 100px;
+}
+.ikkinchi-qator::-webkit-scrollbar{
+    display: none;
+}
+.ikkinchi-qator img{
+    width: 394px;
+    height: 212px;
+    object-fit: cover;
+}
+.ikkinchi-qator__wrapper h2{
+    margin-left: -650px;
+}
+.uchinchi-qator{
+        display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    max-width: 1728px;
+    height: 400px;
+    overflow: auto;
+    padding-left: 100px;
+}
+.uchinchi-qator::-webkit-scrollbar{
+    display: none;
+}
+.uchinchi-qator img{
+    width: 350px;
+    height: 400px;
+    object-fit: contain;
+}
+.tortinchi-qator{
+        display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    max-width: 1728px;
+    height: 400px;
+    overflow: auto;
+    padding-left: 100px;
+}
+.tortinchi-qator::-webkit-scrollbar{
+    display: none;
+}
+.tortinchi-qator img{
+    width: 350px;
+    height: 400px;
+    object-fit: contain;
+}
+.beshinchi-qator{
+        display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    max-width: 1728px;
+    height: 400px;
+    grid-template-rows: 200px;
+    overflow: auto;
+    padding-left: 100px;
+}
+.beshinchi-qator::-webkit-scrollbar{
+    display: none;
+}
+.beshinchi-qator img{
+    width: 350px;
+    height: 400px;
+    object-fit: contain;
+}

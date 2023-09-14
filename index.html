@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="navbar-wrapper">
+                <div class="menu">
+                    <a href="index.html"><img src="./images/pngwing 1.png" alt=""></a>
+                    <ul class="navbar-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">TV-shows</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Popular</a></li>
+                    </ul>
+                </div>
+                <form id="search-form">
+                    <input type="text" placeholder="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="hero">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+        </div>
+        <div class="container">
+            <div class="hero-wrapper">
+            <div class="title">
+                <h1>Darlings</h1>
+                <div class="button-wrapper">
+                    <button class="play-btn"><img src="./images/Polygon 1.svg" alt="">Play</button>
+                    <button class="info-btn">More Info</button>
+                </div>
+            </div>
+            <div class="movies-wrapper">
+                <h2>Hollywood Movies</h2>
+            </div>
+        </div>
+        </div>
+                <div class="hollywood-movie"></div>
+    </header>
+    <main>
+        <div class="ikkinchi-qator__wrapper">
+            <div class="container">
+                <div class="movies-wrapper">
+                    <h2>Trending Now</h2>
+                </div>
+            </div>
+        <div class="ikkinchi-qator"></div>
+        </div>
+    </main>
+
+    <main>
+        <div class="uchinchi-qator__wrapper">
+            <div class="container">
+                <div class="movies-wrapper">
+                    <h2>Cartoons</h2>
+                </div>
+            </div>
+        <div class="uchinchi-qator"></div>
+        </div>
+    </main>
+
+    <main>
+        <div class="tortinchi-qator__wrapper">
+            <div class="container">
+                <div class="movies-wrapper">
+                    <h2>Kooopkina Multfilmlar</h2>
+                </div>
+            </div>
+        <div class="tortinchi-qator"></div>
+        </div>
+    </main>
+
+    <main>
+        <div class="beshinchi-qator__wrapper">
+            <div class="container">
+                <div class="movies-wrapper">
+                    <h2>Positive Multfilmlar</h2>
+                </div>
+            </div>
+        <div class="beshinchi-qator"></div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="./script/app.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    
+</body>
+</html>
